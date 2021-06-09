@@ -10,11 +10,13 @@ class Controller:
         self.x, self.y = 0
     #END
 
-    def moveTo(self, x: int, y: int):
+    def moveTo(self, x, y):
         hypo1 = hypotenuse(Point(0, 0), Point(x, y))
         hypo2 = hypotenuse(Point(500, 0), Point(x, y))
+
     #END
 
     def at(self):
         return (self.x, self.y)
     #END
+#END

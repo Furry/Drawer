@@ -54,7 +54,7 @@ class Stepper_28BYJ_48:
         time.sleep(0.001)
     #END
 
-    def stepTo(self, stepCount: int):
+    def stepTo(self, stepCount):
         while self.totalSteps != stepCount:
             if self.totalSteps > stepCount:
                 self.counterclockwise()
